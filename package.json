@@ -1,0 +1,16 @@
+{
+  "name": "portal-closures-adapter",
+  "version": "1.0.0",
+  "description": "Source-agnostic adapter that pulls public-access-hours data from various APIs/open-data portals and produces a JSON feed for the IITC Portal Closure Times plugin.",
+  "main": "index.js",
+  "bin": {
+    "portal-closures-adapter": "./index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node index.js --config config.json"
+  },
+  "license": "MIT"
+}

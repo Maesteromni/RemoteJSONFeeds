@@ -1,0 +1,31 @@
+{
+  "output": "closures-feed.json",
+  "sources": [
+    {
+      "adapter": "nps",
+      "label": "California NPS units",
+      "apiKey": "env:NPS_API_KEY",
+      "stateCode": "CA",
+      "bufferRadiusMeters": 800
+    },
+    {
+      "adapter": "ridb",
+      "label": "California federal recreation facilities",
+      "apiKey": "env:RIDB_API_KEY",
+      "state": "CA",
+      "bufferRadiusMeters": 300
+    },
+    {
+      "adapter": "geojson",
+      "label": "Example city parks open-data layer",
+      "url": "https://services.arcgis.com/EXAMPLE/ArcGIS/rest/services/Parks/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson",
+      "defaultTimezone": "America/Los_Angeles",
+      "fieldMap": {
+        "sourceLabel": "Example City Parks Dept",
+        "name": "PARK_NAME",
+        "idField": "OBJECTID",
+        "hoursText": "HOURS_TEXT"
+      }
+    }
+  ]
+}
