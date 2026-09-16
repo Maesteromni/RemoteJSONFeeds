@@ -1,0 +1,12 @@
+{
+  "output": "closures-feed.json",
+  "sources": [
+    {
+      "adapter": "nps",
+      "label": "California NPS units",
+      "apiKey": "env:NPS_API_KEY",
+      "stateCode": "CA",
+      "bufferRadiusMeters": 800
+    }
+  ]
+}
