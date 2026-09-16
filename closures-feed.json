@@ -1,0 +1,3068 @@
+{
+  "format": "iitc-portal-closures-feed",
+  "generated": "2026-09-16T21:46:30.010Z",
+  "areas": [
+    {
+      "id": "nps-alca",
+      "name": "Alcatraz Island",
+      "polygon": [
+        [
+          37.83395691284735,
+          -122.4230206
+        ],
+        [
+          37.83340925859883,
+          -122.41953490164175
+        ],
+        [
+          37.8318496712481,
+          -122.41657986926062
+        ],
+        [
+          37.82951558383163,
+          -122.41460537974918
+        ],
+        [
+          37.82676234,
+          -122.41391203123678
+        ],
+        [
+          37.824009096168375,
+          -122.41460537974918
+        ],
+        [
+          37.8216750087519,
+          -122.41657986926062
+        ],
+        [
+          37.82011542140118,
+          -122.41953490164175
+        ],
+        [
+          37.819567767152655,
+          -122.4230206
+        ],
+        [
+          37.82011542140118,
+          -122.42650629835825
+        ],
+        [
+          37.8216750087519,
+          -122.42946133073939
+        ],
+        [
+          37.824009096168375,
+          -122.43143582025083
+        ],
+        [
+          37.82676234,
+          -122.43212916876323
+        ],
+        [
+          37.82951558383163,
+          -122.43143582025083
+        ],
+        [
+          37.8318496712481,
+          -122.42946133073939
+        ],
+        [
+          37.83340925859883,
+          -122.42650629835825
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": {
+            "open": "09:00",
+            "close": "18:30"
+          },
+          "mon": {
+            "open": "09:00",
+            "close": "18:30"
+          },
+          "tue": {
+            "open": "09:00",
+            "close": "21:30"
+          },
+          "wed": {
+            "open": "09:00",
+            "close": "21:30"
+          },
+          "thu": {
+            "open": "09:00",
+            "close": "21:30"
+          },
+          "fri": {
+            "open": "09:00",
+            "close": "21:30"
+          },
+          "sat": {
+            "open": "09:00",
+            "close": "21:30"
+          }
+        },
+        "notes": "Access to Alcatraz Island is via commercial ferry service. For ticket reservation and schedule call (415) 981-7625 or go to www.alcatrazcitycruises.com. The ferry schedule changes seasonally. Alcatraz is closed on Thanksgiving, Christmas and New Years Day. Once on the island you can stay up to the last ferry. \n\nBe aware that tickets sell out quickly and reservations are recommended. Tickets go on sale 90 days in advance. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-buov",
+      "name": "Butterfield Overland National Historic Trail",
+      "polygon": [
+        [
+          32.28401833174735,
+          -106.796583304
+        ],
+        [
+          32.283470677498826,
+          -106.79332686903297
+        ],
+        [
+          32.2819110901481,
+          -106.79056619677002
+        ],
+        [
+          32.27957700273163,
+          -106.7887215745376
+        ],
+        [
+          32.2768237589,
+          -106.7880738293491
+        ],
+        [
+          32.274070515068374,
+          -106.7887215745376
+        ],
+        [
+          32.2717364276519,
+          -106.79056619677002
+        ],
+        [
+          32.270176840301176,
+          -106.79332686903297
+        ],
+        [
+          32.269629186052654,
+          -106.796583304
+        ],
+        [
+          32.270176840301176,
+          -106.79983973896702
+        ],
+        [
+          32.2717364276519,
+          -106.80260041122997
+        ],
+        [
+          32.274070515068374,
+          -106.80444503346239
+        ],
+        [
+          32.2768237589,
+          -106.80509277865089
+        ],
+        [
+          32.27957700273163,
+          -106.80444503346239
+        ],
+        [
+          32.2819110901481,
+          -106.80260041122997
+        ],
+        [
+          32.283470677498826,
+          -106.79983973896702
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The Butterfield Overland National Historic Trail is not a clearly marked hiking trail. Instead, it is a corridor that passes through communities, urban areas, public lands, and Wilderness. The route travels across a variety of land ownerships and management, including private land. Each location varies as to the hours of operation and access. Please contact individual trail sites before your visit for more information."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-cabr",
+      "name": "Cabrillo National Monument",
+      "polygon": [
+        [
+          32.67944487284735,
+          -117.2415985
+        ],
+        [
+          32.67889721859883,
+          -117.23832772984144
+        ],
+        [
+          32.6773376312481,
+          -117.23555490478992
+        ],
+        [
+          32.67500354383163,
+          -117.23370216232382
+        ],
+        [
+          32.6722503,
+          -117.23305156568843
+        ],
+        [
+          32.669497056168375,
+          -117.23370216232382
+        ],
+        [
+          32.6671629687519,
+          -117.23555490478992
+        ],
+        [
+          32.665603381401176,
+          -117.23832772984144
+        ],
+        [
+          32.665055727152655,
+          -117.2415985
+        ],
+        [
+          32.665603381401176,
+          -117.24486927015855
+        ],
+        [
+          32.6671629687519,
+          -117.24764209521007
+        ],
+        [
+          32.669497056168375,
+          -117.24949483767617
+        ],
+        [
+          32.6722503,
+          -117.25014543431156
+        ],
+        [
+          32.67500354383163,
+          -117.24949483767617
+        ],
+        [
+          32.6773376312481,
+          -117.24764209521007
+        ],
+        [
+          32.67889721859883,
+          -117.24486927015855
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "mon": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "tue": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "The park is open 365 days a year including holidays from 9 am until 5 pm. \nThe Bayside Trail and the Oceanside Trail close at 4pm. The tidepools and the Coastal Trail close at 4:30pm. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-cali",
+      "name": "California National Historic Trail",
+      "polygon": [
+        [
+          42.407158970747346,
+          -108.702415369
+        ],
+        [
+          42.406611316498825,
+          -108.69868698880151
+        ],
+        [
+          42.4050517291481,
+          -108.69552622069038
+        ],
+        [
+          42.40271764173163,
+          -108.69341426295912
+        ],
+        [
+          42.3999643979,
+          -108.69267264202735
+        ],
+        [
+          42.39721115406837,
+          -108.69341426295912
+        ],
+        [
+          42.3948770666519,
+          -108.69552622069038
+        ],
+        [
+          42.393317479301174,
+          -108.69868698880151
+        ],
+        [
+          42.39276982505265,
+          -108.702415369
+        ],
+        [
+          42.393317479301174,
+          -108.70614374919847
+        ],
+        [
+          42.3948770666519,
+          -108.7093045173096
+        ],
+        [
+          42.39721115406837,
+          -108.71141647504086
+        ],
+        [
+          42.3999643979,
+          -108.71215809597264
+        ],
+        [
+          42.40271764173163,
+          -108.71141647504086
+        ],
+        [
+          42.4050517291481,
+          -108.7093045173096
+        ],
+        [
+          42.406611316498825,
+          -108.70614374919847
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The California National Historic Trail is not a clearly marked hiking trail. Instead it is a corridor that passes through communities, urban areas, public lands, and Wilderness. The route travels across a variety of land ownerships and management, including private land. Each location varies as to the hours of operation and access. Please contact individual trail sites before your visit for more information."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-camo",
+      "name": "Castle Mountains National Monument",
+      "polygon": [
+        [
+          35.29875805284735,
+          -115.0935606
+        ],
+        [
+          35.298210398598826,
+          -115.09018744713391
+        ],
+        [
+          35.2966508112481,
+          -115.08732782621398
+        ],
+        [
+          35.29431672383163,
+          -115.08541708860272
+        ],
+        [
+          35.29156348,
+          -115.0847461267806
+        ],
+        [
+          35.28881023616837,
+          -115.08541708860272
+        ],
+        [
+          35.2864761487519,
+          -115.08732782621398
+        ],
+        [
+          35.284916561401175,
+          -115.09018744713391
+        ],
+        [
+          35.284368907152654,
+          -115.0935606
+        ],
+        [
+          35.284916561401175,
+          -115.0969337528661
+        ],
+        [
+          35.2864761487519,
+          -115.09979337378603
+        ],
+        [
+          35.28881023616837,
+          -115.10170411139728
+        ],
+        [
+          35.29156348,
+          -115.1023750732194
+        ],
+        [
+          35.29431672383163,
+          -115.10170411139728
+        ],
+        [
+          35.2966508112481,
+          -115.09979337378603
+        ],
+        [
+          35.298210398598826,
+          -115.0969337528661
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Castle Mountains National Monument is open year-round. There are no facilities in the Monument. Visitor Centers in neighboring Mojave National Preserve provide information and orientation."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-chis",
+      "name": "Channel Islands National Park",
+      "polygon": [
+        [
+          33.99399550284735,
+          -119.9112735
+        ],
+        [
+          33.99344784859883,
+          -119.90795300373975
+        ],
+        [
+          33.9918882612481,
+          -119.90513802293475
+        ],
+        [
+          33.98955417383163,
+          -119.90325711289469
+        ],
+        [
+          33.98680093,
+          -119.9025966251227
+        ],
+        [
+          33.984047686168374,
+          -119.90325711289469
+        ],
+        [
+          33.9817135987519,
+          -119.90513802293475
+        ],
+        [
+          33.980154011401176,
+          -119.90795300373975
+        ],
+        [
+          33.979606357152655,
+          -119.9112735
+        ],
+        [
+          33.980154011401176,
+          -119.91459399626024
+        ],
+        [
+          33.9817135987519,
+          -119.91740897706524
+        ],
+        [
+          33.984047686168374,
+          -119.9192898871053
+        ],
+        [
+          33.98680093,
+          -119.91995037487729
+        ],
+        [
+          33.98955417383163,
+          -119.9192898871053
+        ],
+        [
+          33.9918882612481,
+          -119.91740897706524
+        ],
+        [
+          33.99344784859883,
+          -119.91459399626024
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park is open 24 hours a day. Services and facilities have separate hours. Please see descriptions of those facilities elsewhere."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-cech",
+      "name": "César E. Chávez National Monument",
+      "polygon": [
+        [
+          35.234488462847345,
+          -118.5615781
+        ],
+        [
+          35.233940808598824,
+          -118.55820762107618
+        ],
+        [
+          35.2323812212481,
+          -118.55535026701504
+        ],
+        [
+          35.230047133831626,
+          -118.55344104407041
+        ],
+        [
+          35.22729389,
+          -118.55277061412848
+        ],
+        [
+          35.22454064616837,
+          -118.55344104407041
+        ],
+        [
+          35.2222065587519,
+          -118.55535026701504
+        ],
+        [
+          35.22064697140117,
+          -118.55820762107618
+        ],
+        [
+          35.22009931715265,
+          -118.5615781
+        ],
+        [
+          35.22064697140117,
+          -118.56494857892383
+        ],
+        [
+          35.2222065587519,
+          -118.56780593298497
+        ],
+        [
+          35.22454064616837,
+          -118.5697151559296
+        ],
+        [
+          35.22729389,
+          -118.57038558587153
+        ],
+        [
+          35.230047133831626,
+          -118.5697151559296
+        ],
+        [
+          35.2323812212481,
+          -118.56780593298497
+        ],
+        [
+          35.233940808598824,
+          -118.56494857892383
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "mon": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "tue": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "wed": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "thu": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "16:00"
+          }
+        },
+        "notes": "The monument is open daily from 10:00 am to 4:00 pm except for the following holidays:  Easter Sunday, Thanksgiving Day and the Friday after, Christmas Eve and Christmas Day, and New Year's Eve and New Year's Day. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-deva",
+      "name": "Death Valley National Park",
+      "polygon": [
+        [
+          36.49473188284735,
+          -117.134395
+        ],
+        [
+          36.494184228598826,
+          -117.1309705086992
+        ],
+        [
+          36.4926246412481,
+          -117.12806736515589
+        ],
+        [
+          36.49029055383163,
+          -117.12612754665741
+        ],
+        [
+          36.48753731,
+          -117.1254463729857
+        ],
+        [
+          36.48478406616837,
+          -117.12612754665741
+        ],
+        [
+          36.4824499787519,
+          -117.12806736515589
+        ],
+        [
+          36.480890391401175,
+          -117.1309705086992
+        ],
+        [
+          36.480342737152654,
+          -117.134395
+        ],
+        [
+          36.480890391401175,
+          -117.13781949130079
+        ],
+        [
+          36.4824499787519,
+          -117.14072263484411
+        ],
+        [
+          36.48478406616837,
+          -117.14266245334258
+        ],
+        [
+          36.48753731,
+          -117.14334362701429
+        ],
+        [
+          36.49029055383163,
+          -117.14266245334258
+        ],
+        [
+          36.4926246412481,
+          -117.14072263484411
+        ],
+        [
+          36.494184228598826,
+          -117.13781949130079
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park is open daily all year."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-depo",
+      "name": "Devils Postpile National Monument",
+      "polygon": [
+        [
+          37.622450972847346,
+          -119.0873903
+        ],
+        [
+          37.621903318598825,
+          -119.08391454003606
+        ],
+        [
+          37.6203437312481,
+          -119.08096793301878
+        ],
+        [
+          37.61800964383163,
+          -119.0789990731555
+        ],
+        [
+          37.6152564,
+          -119.07830770151263
+        ],
+        [
+          37.61250315616837,
+          -119.0789990731555
+        ],
+        [
+          37.6101690687519,
+          -119.08096793301878
+        ],
+        [
+          37.608609481401174,
+          -119.08391454003606
+        ],
+        [
+          37.60806182715265,
+          -119.0873903
+        ],
+        [
+          37.608609481401174,
+          -119.09086605996393
+        ],
+        [
+          37.6101690687519,
+          -119.09381266698121
+        ],
+        [
+          37.61250315616837,
+          -119.09578152684449
+        ],
+        [
+          37.6152564,
+          -119.09647289848736
+        ],
+        [
+          37.61800964383163,
+          -119.09578152684449
+        ],
+        [
+          37.6203437312481,
+          -119.09381266698121
+        ],
+        [
+          37.621903318598825,
+          -119.09086605996393
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "In the operating season, Devils Postpile National Monument is open 24 hours a day, 7 days a week. \n\nThe Monument usually opens in mid-June. By mid to late October, early winter storms in the High Sierra typically begin to bring snow to the area. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-euon",
+      "name": "Eugene O'Neill National Historic Site",
+      "polygon": [
+        [
+          37.833239132847346,
+          -122.0271566
+        ],
+        [
+          37.832691478598825,
+          -122.02367093554582
+        ],
+        [
+          37.8311318912481,
+          -122.02071593190718
+        ],
+        [
+          37.82879780383163,
+          -122.01874146160087
+        ],
+        [
+          37.82604456,
+          -122.01804811983239
+        ],
+        [
+          37.82329131616837,
+          -122.01874146160087
+        ],
+        [
+          37.8209572287519,
+          -122.02071593190718
+        ],
+        [
+          37.819397641401174,
+          -122.02367093554582
+        ],
+        [
+          37.81884998715265,
+          -122.0271566
+        ],
+        [
+          37.819397641401174,
+          -122.03064226445417
+        ],
+        [
+          37.8209572287519,
+          -122.03359726809282
+        ],
+        [
+          37.82329131616837,
+          -122.03557173839913
+        ],
+        [
+          37.82604456,
+          -122.03626508016761
+        ],
+        [
+          37.82879780383163,
+          -122.03557173839913
+        ],
+        [
+          37.8311318912481,
+          -122.03359726809282
+        ],
+        [
+          37.832691478598825,
+          -122.03064226445417
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "mon": false,
+          "tue": false,
+          "wed": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "thu": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "16:30"
+          }
+        },
+        "notes": "Eugene O'Neill National Historic Site must be accessed through a private, gated road owned by a community of neighboring residents. In order to experience Eugene O'Neill National Historic Site, visitors need to make reservations and will be driven by a park shuttle from the Town of Danville, California. You'll receive a tour of Eugene O'Neill's \"Tao House\" and have time to explore the grounds before returning to Danville on the shuttle. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-fopo",
+      "name": "Fort Point National Historic Site",
+      "polygon": [
+        [
+          37.815568962847344,
+          -122.473747
+        ],
+        [
+          37.81502130859882,
+          -122.47026216980954
+        ],
+        [
+          37.813461721248096,
+          -122.46730787342553
+        ],
+        [
+          37.811127633831624,
+          -122.46533387569164
+        ],
+        [
+          37.80837439,
+          -122.46464069986854
+        ],
+        [
+          37.80562114616837,
+          -122.46533387569164
+        ],
+        [
+          37.8032870587519,
+          -122.46730787342553
+        ],
+        [
+          37.80172747140117,
+          -122.47026216980954
+        ],
+        [
+          37.80117981715265,
+          -122.473747
+        ],
+        [
+          37.80172747140117,
+          -122.47723183019046
+        ],
+        [
+          37.8032870587519,
+          -122.48018612657448
+        ],
+        [
+          37.80562114616837,
+          -122.48216012430836
+        ],
+        [
+          37.80837439,
+          -122.48285330013147
+        ],
+        [
+          37.811127633831624,
+          -122.48216012430836
+        ],
+        [
+          37.813461721248096,
+          -122.48018612657448
+        ],
+        [
+          37.81502130859882,
+          -122.47723183019046
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "mon": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "tue": false,
+          "wed": false,
+          "thu": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "The days in which Fort Point is open varies throughout the year. Fall through Spring the fort is generally open Friday through Sunday. During the summer season the fort is open 5 days a week most years. The timing of the shift in days is not consistent from year to year but generally occurs in October and May. Hours are 10 am to 5 pm. Closed on Thanksgiving, Christmas, and New Year's Day. Visit our web site for current open days. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-goga",
+      "name": "Golden Gate National Recreation Area",
+      "polygon": [
+        [
+          37.86702000284735,
+          -122.6007386
+        ],
+        [
+          37.866472348598826,
+          -122.59725133861006
+        ],
+        [
+          37.8649127612481,
+          -122.59429498115465
+        ],
+        [
+          37.86257867383163,
+          -122.59231960625688
+        ],
+        [
+          37.85982543,
+          -122.59162594683814
+        ],
+        [
+          37.857072186168374,
+          -122.59231960625688
+        ],
+        [
+          37.8547380987519,
+          -122.59429498115465
+        ],
+        [
+          37.853178511401175,
+          -122.59725133861006
+        ],
+        [
+          37.852630857152654,
+          -122.6007386
+        ],
+        [
+          37.853178511401175,
+          -122.60422586138993
+        ],
+        [
+          37.8547380987519,
+          -122.60718221884535
+        ],
+        [
+          37.857072186168374,
+          -122.60915759374312
+        ],
+        [
+          37.85982543,
+          -122.60985125316186
+        ],
+        [
+          37.86257867383163,
+          -122.60915759374312
+        ],
+        [
+          37.8649127612481,
+          -122.60718221884535
+        ],
+        [
+          37.866472348598826,
+          -122.60422586138993
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Although this urban park is accessible 24 hours a day in most areas, most parking lots are open between sunrise to sunset."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-jomu",
+      "name": "John Muir National Historic Site",
+      "polygon": [
+        [
+          37.99003677284735,
+          -122.1326097
+        ],
+        [
+          37.989489118598826,
+          -122.12911660052958
+        ],
+        [
+          37.9879295312481,
+          -122.12615529378851
+        ],
+        [
+          37.98559544383163,
+          -122.1241766118838
+        ],
+        [
+          37.9828422,
+          -122.12348179119864
+        ],
+        [
+          37.98008895616837,
+          -122.1241766118838
+        ],
+        [
+          37.9777548687519,
+          -122.12615529378851
+        ],
+        [
+          37.976195281401175,
+          -122.12911660052958
+        ],
+        [
+          37.975647627152654,
+          -122.1326097
+        ],
+        [
+          37.976195281401175,
+          -122.13610279947042
+        ],
+        [
+          37.9777548687519,
+          -122.13906410621149
+        ],
+        [
+          37.98008895616837,
+          -122.14104278811621
+        ],
+        [
+          37.9828422,
+          -122.14173760880136
+        ],
+        [
+          37.98559544383163,
+          -122.14104278811621
+        ],
+        [
+          37.9879295312481,
+          -122.13906410621149
+        ],
+        [
+          37.989489118598826,
+          -122.13610279947042
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": false,
+          "mon": false,
+          "tue": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "The main park site and visitor center are open Tuesday through Saturday from 10:00 A.M. to 5:00 P.M. We are closed on Sunday and Monday. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-jotr",
+      "name": "Joshua Tree National Park",
+      "polygon": [
+        [
+          33.92137982284735,
+          -115.8398125
+        ],
+        [
+          33.92083216859883,
+          -115.8364948358052
+        ],
+        [
+          33.9192725812481,
+          -115.83368225590935
+        ],
+        [
+          33.91693849383163,
+          -115.83180295010551
+        ],
+        [
+          33.91418525,
+          -115.83114302566636
+        ],
+        [
+          33.911432006168376,
+          -115.83180295010551
+        ],
+        [
+          33.909097918751904,
+          -115.83368225590935
+        ],
+        [
+          33.90753833140118,
+          -115.8364948358052
+        ],
+        [
+          33.906990677152656,
+          -115.8398125
+        ],
+        [
+          33.90753833140118,
+          -115.84313016419479
+        ],
+        [
+          33.909097918751904,
+          -115.84594274409064
+        ],
+        [
+          33.911432006168376,
+          -115.84782204989448
+        ],
+        [
+          33.91418525,
+          -115.84848197433362
+        ],
+        [
+          33.91693849383163,
+          -115.84782204989448
+        ],
+        [
+          33.9192725812481,
+          -115.84594274409064
+        ],
+        [
+          33.92083216859883,
+          -115.84313016419479
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Joshua Tree National Park is open 24 hours a day, 7 days a week, 365 days a year. Visitation increases as temperatures moderate in the fall, peaks during the spring wildflower season, and diminishes during the heat of summer. Some areas of the park are designated for day use only. Visitor centers keep separate hours; please see descriptions."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-juba",
+      "name": "Juan Bautista de Anza National Historic Trail",
+      "polygon": [
+        [
+          33.88153367224734,
+          -117.224179857
+        ],
+        [
+          33.88098601799882,
+          -117.22086374252092
+        ],
+        [
+          33.879426430648095,
+          -117.21805247641062
+        ],
+        [
+          33.877092343231624,
+          -117.21617404845021
+        ],
+        [
+          33.8743390994,
+          -117.21551443226868
+        ],
+        [
+          33.87158585556837,
+          -117.21617404845021
+        ],
+        [
+          33.8692517681519,
+          -117.21805247641062
+        ],
+        [
+          33.86769218080117,
+          -117.22086374252092
+        ],
+        [
+          33.86714452655265,
+          -117.224179857
+        ],
+        [
+          33.86769218080117,
+          -117.22749597147907
+        ],
+        [
+          33.8692517681519,
+          -117.23030723758937
+        ],
+        [
+          33.87158585556837,
+          -117.23218566554978
+        ],
+        [
+          33.8743390994,
+          -117.23284528173131
+        ],
+        [
+          33.877092343231624,
+          -117.23218566554978
+        ],
+        [
+          33.879426430648095,
+          -117.23030723758937
+        ],
+        [
+          33.88098601799882,
+          -117.22749597147907
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": false,
+          "mon": {
+            "open": "09:30",
+            "close": "17:00"
+          },
+          "tue": {
+            "open": "09:30",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "09:30",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "09:30",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "09:30",
+            "close": "17:00"
+          },
+          "sat": false
+        },
+        "notes": "Hours listed are for the Richmond, California administrative office of the Anza Trail (admin office not currently open to public). The 1,200-mile Anza Trail connects historic, cultural, and recreation sites from Nogales, AZ, to the San Francisco Bay Area that reveal the legacy of our Spanish colonial heritage. To learn more, visit http://www.nps.gov/juba. Each site along the Anza Trail is managed independently. Contact individual sites for hours, directions, and other details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-lavo",
+      "name": "Lassen Volcanic National Park",
+      "polygon": [
+        [
+          40.50074032284735,
+          -121.4075993
+        ],
+        [
+          40.50019266859883,
+          -121.40397889312734
+        ],
+        [
+          40.4986330812481,
+          -121.40090966038198
+        ],
+        [
+          40.49629899383163,
+          -121.39885886462673
+        ],
+        [
+          40.49354575,
+          -121.39813872092482
+        ],
+        [
+          40.490792506168376,
+          -121.39885886462673
+        ],
+        [
+          40.488458418751904,
+          -121.40090966038198
+        ],
+        [
+          40.48689883140118,
+          -121.40397889312734
+        ],
+        [
+          40.486351177152656,
+          -121.4075993
+        ],
+        [
+          40.48689883140118,
+          -121.41121970687266
+        ],
+        [
+          40.488458418751904,
+          -121.41428893961802
+        ],
+        [
+          40.490792506168376,
+          -121.41633973537327
+        ],
+        [
+          40.49354575,
+          -121.41705987907518
+        ],
+        [
+          40.49629899383163,
+          -121.41633973537327
+        ],
+        [
+          40.4986330812481,
+          -121.41428893961802
+        ],
+        [
+          40.50019266859883,
+          -121.41121970687266
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park is always open. Road access is limited during the winter season, approximately November through May, due to snow."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-labe",
+      "name": "Lava Beds National Monument",
+      "polygon": [
+        [
+          41.766352802847344,
+          -121.5172189
+        ],
+        [
+          41.76580514859882,
+          -121.51352798184399
+        ],
+        [
+          41.764245561248096,
+          -121.51039897251898
+        ],
+        [
+          41.761911473831624,
+          -121.50830823533016
+        ],
+        [
+          41.75915823,
+          -121.50757406606195
+        ],
+        [
+          41.75640498616837,
+          -121.50830823533016
+        ],
+        [
+          41.7540708987519,
+          -121.51039897251898
+        ],
+        [
+          41.75251131140117,
+          -121.51352798184399
+        ],
+        [
+          41.75196365715265,
+          -121.5172189
+        ],
+        [
+          41.75251131140117,
+          -121.52090981815601
+        ],
+        [
+          41.7540708987519,
+          -121.52403882748102
+        ],
+        [
+          41.75640498616837,
+          -121.52612956466984
+        ],
+        [
+          41.75915823,
+          -121.52686373393806
+        ],
+        [
+          41.761911473831624,
+          -121.52612956466984
+        ],
+        [
+          41.764245561248096,
+          -121.52403882748102
+        ],
+        [
+          41.76580514859882,
+          -121.52090981815601
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park is open 24 hours a day, year-round. \n\nThe visitor center is typically only closed on Christmas Day but will sometimes temporarily close in the winter due to weather or maintenance. Temporary closures are usually posted as an alert and/or on our social media. \n\nFor visitor center hours please the Visitor Center section below."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-manz",
+      "name": "Manzanar National Historic Site",
+      "polygon": [
+        [
+          36.73278652284735,
+          -118.1547177
+        ],
+        [
+          36.73223886859883,
+          -118.15128262302179
+        ],
+        [
+          36.7306792812481,
+          -118.14837050537446
+        ],
+        [
+          36.72834519383163,
+          -118.1464246905714
+        ],
+        [
+          36.72559195,
+          -118.14574141127753
+        ],
+        [
+          36.722838706168375,
+          -118.1464246905714
+        ],
+        [
+          36.7205046187519,
+          -118.14837050537446
+        ],
+        [
+          36.71894503140118,
+          -118.15128262302179
+        ],
+        [
+          36.718397377152655,
+          -118.1547177
+        ],
+        [
+          36.71894503140118,
+          -118.15815277697823
+        ],
+        [
+          36.7205046187519,
+          -118.16106489462555
+        ],
+        [
+          36.722838706168375,
+          -118.16301070942862
+        ],
+        [
+          36.72559195,
+          -118.16369398872249
+        ],
+        [
+          36.72834519383163,
+          -118.16301070942862
+        ],
+        [
+          36.7306792812481,
+          -118.16106489462555
+        ],
+        [
+          36.73223886859883,
+          -118.15815277697823
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": {
+            "solar": "sunrise-sunset"
+          },
+          "mon": {
+            "solar": "sunrise-sunset"
+          },
+          "tue": {
+            "solar": "sunrise-sunset"
+          },
+          "wed": {
+            "solar": "sunrise-sunset"
+          },
+          "thu": {
+            "solar": "sunrise-sunset"
+          },
+          "fri": {
+            "solar": "sunrise-sunset"
+          },
+          "sat": {
+            "solar": "sunrise-sunset"
+          }
+        },
+        "notes": "The driving tour and grounds remain open daily from sunrise to sunset. Visitor center hours are more limited. See visitor center hours section for more information."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-moja",
+      "name": "Mojave National Preserve",
+      "polygon": [
+        [
+          35.132053982847346,
+          -115.5168258
+        ],
+        [
+          35.131506328598824,
+          -115.51345956537494
+        ],
+        [
+          35.1299467412481,
+          -115.51060580945655
+        ],
+        [
+          35.127612653831626,
+          -115.50869899071405
+        ],
+        [
+          35.12485941,
+          -115.50802940501562
+        ],
+        [
+          35.12210616616837,
+          -115.50869899071405
+        ],
+        [
+          35.1197720787519,
+          -115.51060580945655
+        ],
+        [
+          35.118212491401174,
+          -115.51345956537494
+        ],
+        [
+          35.11766483715265,
+          -115.5168258
+        ],
+        [
+          35.118212491401174,
+          -115.52019203462507
+        ],
+        [
+          35.1197720787519,
+          -115.52304579054346
+        ],
+        [
+          35.12210616616837,
+          -115.52495260928596
+        ],
+        [
+          35.12485941,
+          -115.5256221949844
+        ],
+        [
+          35.127612653831626,
+          -115.52495260928596
+        ],
+        [
+          35.1299467412481,
+          -115.52304579054346
+        ],
+        [
+          35.131506328598824,
+          -115.52019203462507
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Outdoor areas of the Mojave National Preserve including trails, roads, campgrounds are OPEN 24 hours a day, 365 days per year. Be sure to check Alerts and Conditions for any temporary closures."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-muwo",
+      "name": "Muir Woods National Monument",
+      "polygon": [
+        [
+          37.90377484284735,
+          -122.5808047
+        ],
+        [
+          37.90322718859883,
+          -122.57731569804336
+        ],
+        [
+          37.9016676012481,
+          -122.57435786500675
+        ],
+        [
+          37.89933351383163,
+          -122.57238150415714
+        ],
+        [
+          37.89658027,
+          -122.57168749851816
+        ],
+        [
+          37.893827026168374,
+          -122.57238150415714
+        ],
+        [
+          37.8914929387519,
+          -122.57435786500675
+        ],
+        [
+          37.889933351401176,
+          -122.57731569804336
+        ],
+        [
+          37.889385697152655,
+          -122.5808047
+        ],
+        [
+          37.889933351401176,
+          -122.58429370195664
+        ],
+        [
+          37.8914929387519,
+          -122.58725153499326
+        ],
+        [
+          37.893827026168374,
+          -122.58922789584287
+        ],
+        [
+          37.89658027,
+          -122.58992190148184
+        ],
+        [
+          37.89933351383163,
+          -122.58922789584287
+        ],
+        [
+          37.9016676012481,
+          -122.58725153499326
+        ],
+        [
+          37.90322718859883,
+          -122.58429370195664
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "mon": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "tue": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "Muir Woods is open every day of the year, with exceptions for inclement weather and hazardous conditions. Our core winter hours are 8 am- 5 pm; in the spring, summer, and fall we are open later based on increased daylight hours. Updates on closures will be posted as an alert to the website and on social-media pages. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-olsp",
+      "name": "Old Spanish National Historic Trail",
+      "polygon": [
+        [
+          37.08637282424735,
+          -112.114693431
+        ],
+        [
+          37.08582516999883,
+          -112.11124239918881
+        ],
+        [
+          37.0842655826481,
+          -112.1083167556872
+        ],
+        [
+          37.08193149523163,
+          -112.10636190319725
+        ],
+        [
+          37.0791782514,
+          -112.1056754502898
+        ],
+        [
+          37.076425007568375,
+          -112.10636190319725
+        ],
+        [
+          37.0740909201519,
+          -112.1083167556872
+        ],
+        [
+          37.07253133280118,
+          -112.11124239918881
+        ],
+        [
+          37.071983678552655,
+          -112.114693431
+        ],
+        [
+          37.07253133280118,
+          -112.1181444628112
+        ],
+        [
+          37.0740909201519,
+          -112.12107010631281
+        ],
+        [
+          37.076425007568375,
+          -112.12302495880276
+        ],
+        [
+          37.0791782514,
+          -112.12371141171022
+        ],
+        [
+          37.08193149523163,
+          -112.12302495880276
+        ],
+        [
+          37.0842655826481,
+          -112.12107010631281
+        ],
+        [
+          37.08582516999883,
+          -112.1181444628112
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "There are many places of history and commemoration on the Old Spanish National Historic Trail to visit. Museums, interpretive centers, and historic sites provide information and interpretation. Please contact each site before you go to obtain current information on closures, changes in hours, and fees."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-pinn",
+      "name": "Pinnacles National Park",
+      "polygon": [
+        [
+          36.49748665284735,
+          -121.1813607
+        ],
+        [
+          36.49693899859883,
+          -121.17793608691258
+        ],
+        [
+          36.4953794112481,
+          -121.17503284012352
+        ],
+        [
+          36.49304532383163,
+          -121.17309295263847
+        ],
+        [
+          36.49029208,
+          -121.17241175474189
+        ],
+        [
+          36.487538836168376,
+          -121.17309295263847
+        ],
+        [
+          36.485204748751904,
+          -121.17503284012352
+        ],
+        [
+          36.48364516140118,
+          -121.17793608691258
+        ],
+        [
+          36.48309750715266,
+          -121.1813607
+        ],
+        [
+          36.48364516140118,
+          -121.18478531308742
+        ],
+        [
+          36.485204748751904,
+          -121.18768855987648
+        ],
+        [
+          36.487538836168376,
+          -121.18962844736153
+        ],
+        [
+          36.49029208,
+          -121.19030964525811
+        ],
+        [
+          36.49304532383163,
+          -121.18962844736153
+        ],
+        [
+          36.4953794112481,
+          -121.18768855987648
+        ],
+        [
+          36.49693899859883,
+          -121.18478531308742
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Entrance to the east side of Pinnacles National Park is open 24 hours, 7 days a week, including holidays."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-pore",
+      "name": "Point Reyes National Seashore",
+      "polygon": [
+        [
+          38.062306982847346,
+          -122.8797804
+        ],
+        [
+          38.061759328598825,
+          -122.87628385410963
+        ],
+        [
+          38.0601997412481,
+          -122.8733196256348
+        ],
+        [
+          38.05786565383163,
+          -122.87133899149
+        ],
+        [
+          38.05511241,
+          -122.8706434852693
+        ],
+        [
+          38.05235916616837,
+          -122.87133899149
+        ],
+        [
+          38.0500250787519,
+          -122.8733196256348
+        ],
+        [
+          38.048465491401174,
+          -122.87628385410963
+        ],
+        [
+          38.04791783715265,
+          -122.8797804
+        ],
+        [
+          38.048465491401174,
+          -122.88327694589037
+        ],
+        [
+          38.0500250787519,
+          -122.8862411743652
+        ],
+        [
+          38.05235916616837,
+          -122.88822180851
+        ],
+        [
+          38.05511241,
+          -122.8889173147307
+        ],
+        [
+          38.05786565383163,
+          -122.88822180851
+        ],
+        [
+          38.0601997412481,
+          -122.8862411743652
+        ],
+        [
+          38.061759328598825,
+          -122.88327694589037
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "notes": "NPS did not provide structured standard hours for this park."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-poex",
+      "name": "Pony Express National Historic Trail",
+      "polygon": [
+        [
+          42.24377068564735,
+          -109.266148417
+        ],
+        [
+          42.24322303139883,
+          -109.26242970490951
+        ],
+        [
+          42.2416634440481,
+          -109.2592771330246
+        ],
+        [
+          42.23932935663163,
+          -109.25717065183659
+        ],
+        [
+          42.2365761128,
+          -109.25643095401108
+        ],
+        [
+          42.233822868968375,
+          -109.25717065183659
+        ],
+        [
+          42.2314887815519,
+          -109.2592771330246
+        ],
+        [
+          42.229929194201176,
+          -109.26242970490951
+        ],
+        [
+          42.229381539952655,
+          -109.266148417
+        ],
+        [
+          42.229929194201176,
+          -109.26986712909049
+        ],
+        [
+          42.2314887815519,
+          -109.2730197009754
+        ],
+        [
+          42.233822868968375,
+          -109.2751261821634
+        ],
+        [
+          42.2365761128,
+          -109.27586587998891
+        ],
+        [
+          42.23932935663163,
+          -109.2751261821634
+        ],
+        [
+          42.2416634440481,
+          -109.2730197009754
+        ],
+        [
+          42.24322303139883,
+          -109.26986712909049
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The Pony Express National Historic Trail is not a clearly marked hiking trail. Instead it is a route that passes through communities, urban areas, public lands, and Wilderness. The route travels across a variety of land ownerships and management, including private land. Each location varies as to the hours of operations and access. Please contact individual trail sites before your visit for more information."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-poch",
+      "name": "Port Chicago Naval Magazine National Memorial",
+      "polygon": [
+        [
+          38.06404929284734,
+          -122.0301603
+        ],
+        [
+          38.06350163859882,
+          -122.02666367086974
+        ],
+        [
+          38.061942051248096,
+          -122.02369937182755
+        ],
+        [
+          38.059607963831624,
+          -122.02171869053115
+        ],
+        [
+          38.05685472,
+          -122.02102316775299
+        ],
+        [
+          38.05410147616837,
+          -122.02171869053115
+        ],
+        [
+          38.0517673887519,
+          -122.02369937182755
+        ],
+        [
+          38.05020780140117,
+          -122.02666367086974
+        ],
+        [
+          38.04966014715265,
+          -122.0301603
+        ],
+        [
+          38.05020780140117,
+          -122.03365692913027
+        ],
+        [
+          38.0517673887519,
+          -122.03662122817246
+        ],
+        [
+          38.05410147616837,
+          -122.03860190946887
+        ],
+        [
+          38.05685472,
+          -122.03929743224703
+        ],
+        [
+          38.059607963831624,
+          -122.03860190946887
+        ],
+        [
+          38.061942051248096,
+          -122.03662122817246
+        ],
+        [
+          38.06350163859882,
+          -122.03365692913027
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The Port Chicago Naval Magazine National Memorial is located on Military Ocean Terminal Concord (MOTCO) and is an active base. Due to its location, tours are only available with reservations on a ranger-guided tour. Public access to the memorial is through a two-week advance reservation process and only on Thursdays, Fridays or Saturdays. Allow for 1.5 hours beginning at 12:30 PM. No access Sundays, Mondays, Tuesdays, Wednesdays, and during Military Ocean Terminal Concord (MOTCO) operations. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-prsf",
+      "name": "Presidio of San Francisco",
+      "polygon": [
+        [
+          37.804194572847344,
+          -122.4671
+        ],
+        [
+          37.80364691859882,
+          -122.46361570644336
+        ],
+        [
+          37.802087331248096,
+          -122.46066186499553
+        ],
+        [
+          37.799753243831624,
+          -122.4586881712403
+        ],
+        [
+          37.797,
+          -122.4579951021603
+        ],
+        [
+          37.79424675616837,
+          -122.4586881712403
+        ],
+        [
+          37.7919126687519,
+          -122.46066186499553
+        ],
+        [
+          37.79035308140117,
+          -122.46361570644336
+        ],
+        [
+          37.78980542715265,
+          -122.4671
+        ],
+        [
+          37.79035308140117,
+          -122.47058429355664
+        ],
+        [
+          37.7919126687519,
+          -122.47353813500447
+        ],
+        [
+          37.79424675616837,
+          -122.4755118287597
+        ],
+        [
+          37.797,
+          -122.47620489783971
+        ],
+        [
+          37.799753243831624,
+          -122.4755118287597
+        ],
+        [
+          37.802087331248096,
+          -122.47353813500447
+        ],
+        [
+          37.80364691859882,
+          -122.47058429355664
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The Presidio is open 24 hours a day, every day of the year."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-redw",
+      "name": "Redwood National and State Parks",
+      "polygon": [
+        [
+          41.379567252847345,
+          -124.0318129
+        ],
+        [
+          41.37901959859882,
+          -124.02814401103042
+        ],
+        [
+          41.3774600112481,
+          -124.02503367714789
+        ],
+        [
+          41.375125923831625,
+          -124.0229554184908
+        ],
+        [
+          41.37237268,
+          -124.0222256311002
+        ],
+        [
+          41.36961943616837,
+          -124.0229554184908
+        ],
+        [
+          41.3672853487519,
+          -124.02503367714789
+        ],
+        [
+          41.36572576140117,
+          -124.02814401103042
+        ],
+        [
+          41.36517810715265,
+          -124.0318129
+        ],
+        [
+          41.36572576140117,
+          -124.03548178896959
+        ],
+        [
+          41.3672853487519,
+          -124.03859212285212
+        ],
+        [
+          41.36961943616837,
+          -124.04067038150922
+        ],
+        [
+          41.37237268,
+          -124.04140016889981
+        ],
+        [
+          41.375125923831625,
+          -124.04067038150922
+        ],
+        [
+          41.3774600112481,
+          -124.03859212285212
+        ],
+        [
+          41.37901959859882,
+          -124.03548178896959
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The national and state parks are always open to enjoy. \nRoads, trails and public access remain open year round.\n\nSome campgrounds and visitor centers are closed - or have reduced hours - in the off-season (October-May)"
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-rori",
+      "name": "Rosie the Riveter WWII Home Front National Historical Park",
+      "polygon": [
+        [
+          37.91718484284735,
+          -122.360156
+        ],
+        [
+          37.91663718859883,
+          -122.35666636220742
+        ],
+        [
+          37.9150776012481,
+          -122.35370799013512
+        ],
+        [
+          37.91274351383163,
+          -122.3517312691134
+        ],
+        [
+          37.90999027,
+          -122.35103713699877
+        ],
+        [
+          37.907237026168374,
+          -122.3517312691134
+        ],
+        [
+          37.9049029387519,
+          -122.35370799013512
+        ],
+        [
+          37.903343351401176,
+          -122.35666636220742
+        ],
+        [
+          37.902795697152655,
+          -122.360156
+        ],
+        [
+          37.903343351401176,
+          -122.36364563779259
+        ],
+        [
+          37.9049029387519,
+          -122.36660400986489
+        ],
+        [
+          37.907237026168374,
+          -122.3685807308866
+        ],
+        [
+          37.90999027,
+          -122.36927486300124
+        ],
+        [
+          37.91274351383163,
+          -122.3685807308866
+        ],
+        [
+          37.9150776012481,
+          -122.36660400986489
+        ],
+        [
+          37.91663718859883,
+          -122.36364563779259
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "mon": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "tue": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "Hours of Operation:\nThe Visitor Center is open daily from 10:00 AM to 5:00 PM. The park is also closed during the following holidays:\n\nHolidays:\nClosed on Thanksgiving Day, Christmas Day, and New Year's Day. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-safr",
+      "name": "San Francisco Maritime National Historical Park",
+      "polygon": [
+        [
+          37.817253282847346,
+          -122.4244415
+        ],
+        [
+          37.816705628598825,
+          -122.42095659031907
+        ],
+        [
+          37.8151460412481,
+          -122.41800222654626
+        ],
+        [
+          37.81281195383163,
+          -122.41602818378465
+        ],
+        [
+          37.81005871,
+          -122.41533499214991
+        ],
+        [
+          37.80730546616837,
+          -122.41602818378465
+        ],
+        [
+          37.8049713787519,
+          -122.41800222654626
+        ],
+        [
+          37.803411791401174,
+          -122.42095659031907
+        ],
+        [
+          37.80286413715265,
+          -122.4244415
+        ],
+        [
+          37.803411791401174,
+          -122.42792640968094
+        ],
+        [
+          37.8049713787519,
+          -122.43088077345374
+        ],
+        [
+          37.80730546616837,
+          -122.43285481621535
+        ],
+        [
+          37.81005871,
+          -122.43354800785009
+        ],
+        [
+          37.81281195383163,
+          -122.43285481621535
+        ],
+        [
+          37.8151460412481,
+          -122.43088077345374
+        ],
+        [
+          37.816705628598825,
+          -122.42792640968094
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "mon": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "tue": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "Visitor Center: Open daily 10:00 am – 5:00 pm.\nThe Visitor Center is closed on Thanksgiving Day, Christmas Day, and New Year's Day. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-samo",
+      "name": "Santa Monica Mountains National Recreation Area",
+      "polygon": [
+        [
+          34.10497063284735,
+          -118.7708619
+        ],
+        [
+          34.104422978598826,
+          -118.76753705594476
+        ],
+        [
+          34.1028633912481,
+          -118.76471838925714
+        ],
+        [
+          34.10052930383163,
+          -118.76283501638905
+        ],
+        [
+          34.09777606,
+          -118.76217366378685
+        ],
+        [
+          34.095022816168374,
+          -118.76283501638905
+        ],
+        [
+          34.0926887287519,
+          -118.76471838925714
+        ],
+        [
+          34.091129141401176,
+          -118.76753705594476
+        ],
+        [
+          34.090581487152654,
+          -118.7708619
+        ],
+        [
+          34.091129141401176,
+          -118.77418674405524
+        ],
+        [
+          34.0926887287519,
+          -118.77700541074286
+        ],
+        [
+          34.095022816168374,
+          -118.77888878361095
+        ],
+        [
+          34.09777606,
+          -118.77955013621315
+        ],
+        [
+          34.10052930383163,
+          -118.77888878361095
+        ],
+        [
+          34.1028633912481,
+          -118.77700541074286
+        ],
+        [
+          34.104422978598826,
+          -118.77418674405524
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park sites are open year-round.\nOur parking lots are open from 8 am to sunset."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-seki",
+      "name": "Sequoia & Kings Canyon National Parks",
+      "polygon": [
+        [
+          36.719967562847344,
+          -118.587429
+        ],
+        [
+          36.71941990859882,
+          -118.58399449622658
+        ],
+        [
+          36.7178603212481,
+          -118.58108286451882
+        ],
+        [
+          36.715526233831625,
+          -118.5791373744102
+        ],
+        [
+          36.71277299,
+          -118.57845420913385
+        ],
+        [
+          36.71001974616837,
+          -118.5791373744102
+        ],
+        [
+          36.7076856587519,
+          -118.58108286451882
+        ],
+        [
+          36.70612607140117,
+          -118.58399449622658
+        ],
+        [
+          36.70557841715265,
+          -118.587429
+        ],
+        [
+          36.70612607140117,
+          -118.59086350377342
+        ],
+        [
+          36.7076856587519,
+          -118.59377513548118
+        ],
+        [
+          36.71001974616837,
+          -118.5957206255898
+        ],
+        [
+          36.71277299,
+          -118.59640379086615
+        ],
+        [
+          36.715526233831625,
+          -118.5957206255898
+        ],
+        [
+          36.7178603212481,
+          -118.59377513548118
+        ],
+        [
+          36.71941990859882,
+          -118.59086350377342
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The parks are open 24 hours a day, 365 days a year. Some park roads and roads that access more remote parts of the parks close in the winter due to snow accumulation. Rarely, extreme weather conditions may cause roads into the parks to be closed."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-tule",
+      "name": "Tule Lake National Monument",
+      "polygon": [
+        [
+          41.89447359284735,
+          -121.3744818
+        ],
+        [
+          41.89392593859883,
+          -121.3707834890583
+        ],
+        [
+          41.8923663512481,
+          -121.3676482124322
+        ],
+        [
+          41.89003226383163,
+          -121.36555328756667
+        ],
+        [
+          41.88727902,
+          -121.36481764778195
+        ],
+        [
+          41.884525776168374,
+          -121.36555328756667
+        ],
+        [
+          41.8821916887519,
+          -121.3676482124322
+        ],
+        [
+          41.880632101401176,
+          -121.3707834890583
+        ],
+        [
+          41.880084447152655,
+          -121.3744818
+        ],
+        [
+          41.880632101401176,
+          -121.3781801109417
+        ],
+        [
+          41.8821916887519,
+          -121.3813153875678
+        ],
+        [
+          41.884525776168374,
+          -121.38341031243333
+        ],
+        [
+          41.88727902,
+          -121.38414595221805
+        ],
+        [
+          41.89003226383163,
+          -121.38341031243333
+        ],
+        [
+          41.8923663512481,
+          -121.3813153875678
+        ],
+        [
+          41.89392593859883,
+          -121.3781801109417
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": {
+            "open": "09:00",
+            "close": "16:30"
+          },
+          "mon": {
+            "open": "09:00",
+            "close": "16:30"
+          },
+          "tue": false,
+          "wed": false,
+          "thu": {
+            "open": "21:00",
+            "close": "16:30"
+          },
+          "fri": {
+            "open": "09:00",
+            "close": "16:30"
+          },
+          "sat": {
+            "open": "09:00",
+            "close": "16:30"
+          }
+        },
+        "notes": "The visitor center is open Thursday - Sunday from 9:00am to 4:30pm, till September 7th. Please check the calendar for the most accurate information. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-whis",
+      "name": "Whiskeytown National Recreation Area",
+      "polygon": [
+        [
+          40.620793982847346,
+          -122.6022657
+        ],
+        [
+          40.620246328598824,
+          -122.59863879600755
+        ],
+        [
+          40.6186867412481,
+          -122.59556405526997
+        ],
+        [
+          40.616352653831626,
+          -122.593509579192
+        ],
+        [
+          40.61359941,
+          -122.5927881431326
+        ],
+        [
+          40.61084616616837,
+          -122.593509579192
+        ],
+        [
+          40.6085120787519,
+          -122.59556405526997
+        ],
+        [
+          40.606952491401174,
+          -122.59863879600755
+        ],
+        [
+          40.60640483715265,
+          -122.6022657
+        ],
+        [
+          40.606952491401174,
+          -122.60589260399246
+        ],
+        [
+          40.6085120787519,
+          -122.60896734473003
+        ],
+        [
+          40.61084616616837,
+          -122.611021820808
+        ],
+        [
+          40.61359941,
+          -122.61174325686741
+        ],
+        [
+          40.616352653831626,
+          -122.611021820808
+        ],
+        [
+          40.6186867412481,
+          -122.60896734473003
+        ],
+        [
+          40.620246328598824,
+          -122.60589260399246
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park is open year-round, 24 hours a day.  Certain areas of the park are subject to seasonal and COVID-19 temporary closures or limited hours. Some areas of the park remain closed due to hazardous conditions from the Carr Fire. Please check the park website for current information."
+      },
+      "updated": null
+    },
+    {
+      "id": "nps-yose",
+      "name": "Yosemite National Park",
+      "polygon": [
+        [
+          37.85602745284735,
+          -119.5571873
+        ],
+        [
+          37.85547979859883,
+          -119.55370055855863
+        ],
+        [
+          37.8539202112481,
+          -119.55074464189433
+        ],
+        [
+          37.85158612383163,
+          -119.54876956152376
+        ],
+        [
+          37.84883288,
+          -119.54807600552921
+        ],
+        [
+          37.846079636168376,
+          -119.54876956152376
+        ],
+        [
+          37.843745548751905,
+          -119.55074464189433
+        ],
+        [
+          37.84218596140118,
+          -119.55370055855863
+        ],
+        [
+          37.84163830715266,
+          -119.5571873
+        ],
+        [
+          37.84218596140118,
+          -119.56067404144136
+        ],
+        [
+          37.843745548751905,
+          -119.56362995810566
+        ],
+        [
+          37.846079636168376,
+          -119.56560503847624
+        ],
+        [
+          37.84883288,
+          -119.56629859447078
+        ],
+        [
+          37.85158612383163,
+          -119.56560503847624
+        ],
+        [
+          37.8539202112481,
+          -119.56362995810566
+        ],
+        [
+          37.85547979859883,
+          -119.56067404144136
+        ]
+      ],
+      "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
+      "schedule": {
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Yosemite National Park is open 24 hours per day, 365 days per year."
+      },
+      "updated": null
+    }
+  ]
+}
