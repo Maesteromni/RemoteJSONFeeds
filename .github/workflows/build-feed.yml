@@ -1,0 +1,33 @@
+name: Build closures feed
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 06:00 UTC — adjust as you like
+  workflow_dispatch: {}    # adds a manual "Run workflow" button on GitHub
+
+permissions:
+  contents: write   # lets this workflow commit the updated feed back to the repo
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run adapter
+        env:
+          NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
+          RIDB_API_KEY: ${{ secrets.RIDB_API_KEY }}
+        run: node index.js --config config.json
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add closures-feed.json
+          git diff --quiet --cached || git commit -m "Update closures feed [automated]"
+          git push
