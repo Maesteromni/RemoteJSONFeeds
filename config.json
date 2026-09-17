@@ -7,6 +7,50 @@
       "apiKey": "env:NPS_API_KEY",
       "stateCode": "CA",
       "bufferRadiusMeters": 800
+    },
+    {
+      "adapter": "geojson",
+      "label": "California State Parks — real boundaries, no hours (CDPR ArcGIS)",
+      "url": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/arcgis/rest/services/ParkBoundaries/FeatureServer/0/query?where=1%3D1&outFields=*&f=geojson",
+      "defaultTimezone": "America/Los_Angeles",
+      "fieldMap": {
+        "sourceLabel": "California State Parks (parks.ca.gov)",
+        "name": "UNITNAME",
+        "idField": "GISID"
+      }
+    },
+    {
+      "adapter": "geojson",
+      "label": "San Mateo County Parks — real boundaries, no hours",
+      "url": "https://services.arcgis.com/yq3FgOI44hYHAFVZ/ArcGIS/rest/services/SanMateoParks/FeatureServer/4/query?where=1%3D1&outFields=*&f=geojson",
+      "defaultTimezone": "America/Los_Angeles",
+      "fieldMap": {
+        "sourceLabel": "San Mateo County Parks",
+        "name": "NAME",
+        "idField": "OBJECTID_1"
+      }
+    },
+    {
+      "adapter": "geojson",
+      "label": "East Bay Regional Park District — third-party mirror hosted by EBMUD's GIS server",
+      "url": "https://gis.ebmud.com/arcgiswa/rest/services/FWEBW/EBMUDTrails_Boundary/MapServer/5/query?where=1%3D1&outFields=*&f=geojson",
+      "defaultTimezone": "America/Los_Angeles",
+      "fieldMap": {
+        "sourceLabel": "EBRPD (via EBMUD GIS mirror — not EBRPD's own server)",
+        "name": "NAME",
+        "idField": "OBJECTID"
+      }
+    },
+    {
+      "adapter": "geojson",
+      "label": "EBMUD's own public recreation areas — real boundaries, no hours",
+      "url": "https://gis.ebmud.com/arcgiswa/rest/services/FWEBW/EBMUDTrails_Boundary/MapServer/3/query?where=1%3D1&outFields=*&f=geojson",
+      "defaultTimezone": "America/Los_Angeles",
+      "fieldMap": {
+        "sourceLabel": "EBMUD Recreation Areas (trail permit required)",
+        "name": "NAME",
+        "idField": "OBJECTID"
+      }
     }
   ]
 }
