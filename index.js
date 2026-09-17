@@ -87,6 +87,12 @@ async function main() {
     } catch (err) {
       console.log('FAILED');
       console.error(`  ✗ ${err.message}`);
+      if (err.cause) {
+        // Node's fetch() throws a generic "fetch failed" TypeError for
+        // network-level problems (DNS, connection refused, TLS, etc.) —
+        // the actual reason lives in .cause and is otherwise invisible.
+        console.error(`    cause: ${err.cause.code || ''} ${err.cause.message || err.cause}`.trim());
+      }
       hadError = true;
     }
   }
