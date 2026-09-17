@@ -19,6 +19,16 @@ const { geoJsonGeometryToPolygon } = require('../lib/geometry');
 //   fieldMap     (required) property-name mapping, see below
 //   defaultTimezone (optional) IANA tz used when the source has none
 //   idPrefix     (optional) prefix for generated area ids, default "geo"
+//   paginate     (optional) set true for ArcGIS sources with more results
+//                than one request returns (ArcGIS layers cap out at a
+//                maxRecordCount, commonly 1000-2000 — a nationwide/statewide
+//                layer filtered down can still easily exceed that). Adds
+//                &resultOffset=N&resultRecordCount=pageSize to `url` and
+//                loops until a page comes back short. Only meaningful for
+//                ArcGIS REST query URLs; harmless (does one request) against
+//                a plain static .geojson file or a source that ignores
+//                those params, since it stops as soon as a page is short.
+//   pageSize     (optional, default 1000) records per page when paginating
 //
 // fieldMap options (all refer to GeoJSON `feature.properties` keys):
 //   name           — property holding the area's display name
@@ -39,16 +49,32 @@ const { geoJsonGeometryToPolygon } = require('../lib/geometry');
 // will come through with no schedule (still fine — geometry + name only,
 // ready for a manual override in the plugin).
 async function fetchGeoJsonAreas(config) {
-  const { url, fieldMap = {}, defaultTimezone, idPrefix = 'geo' } = config;
+  const { url, fieldMap = {}, defaultTimezone, idPrefix = 'geo', paginate = false, pageSize = 1000 } = config;
   if (!url) throw new Error('geojson adapter: "url" is required');
 
-  const resp = await fetch(url, { headers: { Accept: 'application/geo+json, application/json' } });
-  if (!resp.ok) throw new Error(`geojson adapter: HTTP ${resp.status} fetching ${url}`);
-  const geo = await resp.json();
-  const features = geo.features || [];
+  const allFeatures = [];
+  if (!paginate) {
+    const resp = await fetch(url, { headers: { Accept: 'application/geo+json, application/json' } });
+    if (!resp.ok) throw new Error(`geojson adapter: HTTP ${resp.status} fetching ${url}`);
+    const geo = await resp.json();
+    allFeatures.push(...(geo.features || []));
+  } else {
+    const sep = url.includes('?') ? '&' : '?';
+    let offset = 0;
+    for (;;) {
+      const pageUrl = `${url}${sep}resultOffset=${offset}&resultRecordCount=${pageSize}`;
+      const resp = await fetch(pageUrl, { headers: { Accept: 'application/geo+json, application/json' } });
+      if (!resp.ok) throw new Error(`geojson adapter: HTTP ${resp.status} fetching page at offset ${offset}`);
+      const geo = await resp.json();
+      const features = geo.features || [];
+      allFeatures.push(...features);
+      if (features.length < pageSize) break; // last page
+      offset += features.length;
+    }
+  }
 
   const areas = [];
-  features.forEach((feature, index) => {
+  allFeatures.forEach((feature, index) => {
     const area = featureToArea(feature, index, fieldMap, defaultTimezone, idPrefix);
     if (area) areas.push(area);
   });
