@@ -51,6 +51,19 @@
         "name": "NAME",
         "idField": "OBJECTID"
       }
+    },
+    {
+      "adapter": "geojson",
+      "label": "National Register of Historic Places — real boundaries for listed historic sites/districts, no hours",
+      "url": "https://mapservices.nps.gov/arcgis/rest/services/cultural_resources/nrhp_locations/MapServer/1/query?where=State%3D%27CA%27+AND+STATUS%3D%27Listed%27&outFields=*&f=geojson",
+      "defaultTimezone": "America/Los_Angeles",
+      "paginate": true,
+      "pageSize": 1000,
+      "fieldMap": {
+        "sourceLabel": "National Register of Historic Places (nps.gov)",
+        "name": "RESNAME",
+        "idField": "OBJECTID"
+      }
     }
   ]
 }
