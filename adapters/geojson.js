@@ -57,6 +57,7 @@ async function fetchGeoJsonAreas(config) {
     const resp = await fetch(url, { headers: { Accept: 'application/geo+json, application/json' } });
     if (!resp.ok) throw new Error(`geojson adapter: HTTP ${resp.status} fetching ${url}`);
     const geo = await resp.json();
+    if (geo.error) throw new Error(`geojson adapter: server rejected the query — ${JSON.stringify(geo.error)}`);
     allFeatures.push(...(geo.features || []));
   } else {
     const sep = url.includes('?') ? '&' : '?';
@@ -66,6 +67,7 @@ async function fetchGeoJsonAreas(config) {
       const resp = await fetch(pageUrl, { headers: { Accept: 'application/geo+json, application/json' } });
       if (!resp.ok) throw new Error(`geojson adapter: HTTP ${resp.status} fetching page at offset ${offset}`);
       const geo = await resp.json();
+      if (geo.error) throw new Error(`geojson adapter: server rejected the query at offset ${offset} — ${JSON.stringify(geo.error)}`);
       const features = geo.features || [];
       allFeatures.push(...features);
       if (features.length < pageSize) break; // last page
@@ -73,11 +75,20 @@ async function fetchGeoJsonAreas(config) {
     }
   }
 
+  if (allFeatures.length === 0) {
+    console.warn(`  ! geojson adapter: query returned zero raw features (before any geometry/field filtering) — check the "where" clause and field names against the source's own layer definition (append ?f=pjson to the layer URL, without /query, to see them)`);
+  }
+
   const areas = [];
+  let droppedNoGeometry = 0;
   allFeatures.forEach((feature, index) => {
     const area = featureToArea(feature, index, fieldMap, defaultTimezone, idPrefix);
     if (area) areas.push(area);
+    else droppedNoGeometry++;
   });
+  if (droppedNoGeometry) {
+    console.warn(`  ! geojson adapter: ${droppedNoGeometry}/${allFeatures.length} raw feature(s) had no usable Polygon/MultiPolygon geometry and were skipped`);
+  }
   return areas;
 }
 
