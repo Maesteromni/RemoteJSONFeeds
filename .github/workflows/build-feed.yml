@@ -19,6 +19,8 @@ jobs:
           node-version: '20'
 
       - name: Run adapter
+        id: run-adapter
+        continue-on-error: true
         env:
           NPS_API_KEY: ${{ secrets.NPS_API_KEY }}
           RIDB_API_KEY: ${{ secrets.RIDB_API_KEY }}
@@ -29,5 +31,16 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add closures-feed.json
-          git diff --quiet --cached || git commit -m "Update closures feed [automated]"
-          git push
+          if git diff --quiet --cached; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update closures feed [automated]"
+            git push origin HEAD:main
+          fi
+
+      - name: Fail the run if the adapter had errors (after committing what succeeded)
+        if: steps.run-adapter.outcome == 'failure'
+        run: |
+          echo "Some sources failed this run — see the 'Run adapter' step's log above for which ones."
+          echo "Whatever succeeded was still committed; this just keeps the run visibly red so failures don't go unnoticed."
+          exit 1
