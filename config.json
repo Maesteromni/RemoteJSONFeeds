@@ -64,6 +64,18 @@
         "name": "RESNAME",
         "idField": "OBJECTID"
       }
+    },
+    {
+      "adapter": "geojson",
+      "label": "EBMUD trail lines — real geometry, buffered into 30m closure zones, no hours confirmed",
+      "url": "https://gis.ebmud.com/arcgiswa/rest/services/FWEBW/trailsMoreLight/MapServer/0/query?where=1%3D1&outFields=*&f=geojson",
+      "defaultTimezone": "America/Los_Angeles",
+      "lineBufferMeters": 30,
+      "fieldMap": {
+        "sourceLabel": "EBMUD Trails (TRAIL_NAME/DOG/HORSE/BICYCLE fields available; no confirmed hours field)",
+        "name": "TRAIL_NAME",
+        "idField": "OBJECTID"
+      }
     }
   ]
 }
