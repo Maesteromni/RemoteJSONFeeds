@@ -1,7 +1,7 @@
 'use strict';
 
 const { guessHoursFromFreeText, to24h, DAY_KEYS } = require('../lib/hours');
-const { geoJsonGeometryToPolygon } = require('../lib/geometry');
+const { geoJsonGeometryToPolygon, geoJsonGeometryToLine, bufferLineToRibbon } = require('../lib/geometry');
 
 // Generic adapter for ANY source that can hand back GeoJSON with real
 // polygon geometry — this is the one to reach for first, since it uses
@@ -29,6 +29,12 @@ const { geoJsonGeometryToPolygon } = require('../lib/geometry');
 //                a plain static .geojson file or a source that ignores
 //                those params, since it stops as soon as a page is short.
 //   pageSize     (optional, default 1000) records per page when paginating
+//   lineBufferMeters (optional) set this for sources with LineString/
+//                MultiLineString geometry (trails, not areas) — buffers
+//                the line into a ribbon polygon this many meters wide,
+//                same math the IITC plugin itself uses for OSM/GPX
+//                trails. Without this, a line-geometry source produces
+//                no areas at all (Polygon/MultiPolygon only otherwise).
 //
 // fieldMap options (all refer to GeoJSON `feature.properties` keys):
 //   name           — property holding the area's display name
@@ -49,7 +55,7 @@ const { geoJsonGeometryToPolygon } = require('../lib/geometry');
 // will come through with no schedule (still fine — geometry + name only,
 // ready for a manual override in the plugin).
 async function fetchGeoJsonAreas(config) {
-  const { url, fieldMap = {}, defaultTimezone, idPrefix = 'geo', paginate = false, pageSize = 1000 } = config;
+  const { url, fieldMap = {}, defaultTimezone, idPrefix = 'geo', paginate = false, pageSize = 1000, lineBufferMeters = null } = config;
   if (!url) throw new Error('geojson adapter: "url" is required');
 
   const allFeatures = [];
@@ -82,18 +88,23 @@ async function fetchGeoJsonAreas(config) {
   const areas = [];
   let droppedNoGeometry = 0;
   allFeatures.forEach((feature, index) => {
-    const area = featureToArea(feature, index, fieldMap, defaultTimezone, idPrefix);
+    const area = featureToArea(feature, index, fieldMap, defaultTimezone, idPrefix, lineBufferMeters);
     if (area) areas.push(area);
     else droppedNoGeometry++;
   });
   if (droppedNoGeometry) {
-    console.warn(`  ! geojson adapter: ${droppedNoGeometry}/${allFeatures.length} raw feature(s) had no usable Polygon/MultiPolygon geometry and were skipped`);
+    const geomHint = lineBufferMeters ? 'usable Polygon/MultiPolygon/LineString/MultiLineString geometry' : 'usable Polygon/MultiPolygon geometry (set "lineBufferMeters" if this source has trail LINE geometry instead)';
+    console.warn(`  ! geojson adapter: ${droppedNoGeometry}/${allFeatures.length} raw feature(s) had no ${geomHint} and were skipped`);
   }
   return areas;
 }
 
-function featureToArea(feature, index, fieldMap, defaultTimezone, idPrefix) {
-  const polygon = geoJsonGeometryToPolygon(feature.geometry);
+function featureToArea(feature, index, fieldMap, defaultTimezone, idPrefix, lineBufferMeters) {
+  let polygon = geoJsonGeometryToPolygon(feature.geometry);
+  if (!polygon && lineBufferMeters) {
+    const line = geoJsonGeometryToLine(feature.geometry);
+    if (line && line.length >= 2) polygon = bufferLineToRibbon(line, lineBufferMeters);
+  }
   if (!polygon || polygon.length < 3) return null;
 
   const props = feature.properties || {};
