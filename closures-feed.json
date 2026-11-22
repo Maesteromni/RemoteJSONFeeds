@@ -1,6 +1,6 @@
 {
   "format": "iitc-portal-closures-feed",
-  "generated": "2026-11-21T14:19:50.861Z",
+  "generated": "2026-11-22T14:11:20.000Z",
   "areas": [
     {
       "id": "nps-alca",
@@ -75,31 +75,31 @@
       "schedule": {
         "hours": {
           "sun": {
-            "open": "09:00",
+            "open": "08:30",
             "close": "18:30"
           },
           "mon": {
-            "open": "09:00",
+            "open": "08:30",
             "close": "18:30"
           },
           "tue": {
-            "open": "09:00",
+            "open": "08:30",
             "close": "21:30"
           },
           "wed": {
-            "open": "09:00",
+            "open": "08:30",
             "close": "21:30"
           },
           "thu": {
-            "open": "09:00",
+            "open": "08:30",
             "close": "21:30"
           },
           "fri": {
-            "open": "09:00",
+            "open": "08:30",
             "close": "21:30"
           },
           "sat": {
-            "open": "09:00",
+            "open": "08:30",
             "close": "21:30"
           }
         },
@@ -151919,7 +151919,7 @@
           "fri": "allday",
           "sat": "allday"
         },
-        "notes": "The Port Chicago Naval Magazine National Memorial is located on Military Ocean Terminal Concord (MOTCO) and is an active base. Due to its location, tours are only available with reservations on a ranger-guided tour. Public access to the memorial is through a two-week advance reservation process and only on Thursdays, Fridays or Saturdays. Allow for 1.5 hours beginning at 12:30 PM. No access Sundays, Mondays, Tuesdays, Wednesdays, and during Military Ocean Terminal Concord (MOTCO) operations. Exceptions apply (holidays/seasonal) — check nps.gov for details."
+        "notes": "The Port Chicago Naval Magazine National Memorial is located on Military Ocean Terminal Concord (MOTCO) and is an active base. Due to its location, tours are only available with reservations on a ranger-guided tour. Public access to the memorial is through a two-week advance reservation process and only on Thursdays, Fridays or Saturdays. Allow for 1.5 hours. No access Sundays, Mondays, Tuesdays, Wednesdays, and during Military Ocean Terminal Concord (MOTCO) operations. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
