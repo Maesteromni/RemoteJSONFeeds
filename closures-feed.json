@@ -1,6 +1,6 @@
 {
   "format": "iitc-portal-closures-feed",
-  "generated": "2026-11-24T17:04:08.756Z",
+  "generated": "2026-11-25T16:53:10.753Z",
   "areas": [
     {
       "id": "nps-alca",
@@ -73,7 +73,37 @@
       ],
       "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": {
+            "open": "08:30",
+            "close": "16:30"
+          },
+          "mon": {
+            "open": "08:30",
+            "close": "16:30"
+          },
+          "tue": {
+            "open": "08:30",
+            "close": "19:30"
+          },
+          "wed": {
+            "open": "08:30",
+            "close": "19:30"
+          },
+          "thu": {
+            "open": "08:30",
+            "close": "19:30"
+          },
+          "fri": {
+            "open": "08:30",
+            "close": "19:30"
+          },
+          "sat": {
+            "open": "08:30",
+            "close": "19:30"
+          }
+        },
+        "notes": "Access to Alcatraz Island is via commercial ferry service. For ticket reservation and schedule call (415) 981-7625 or go to www.AlcatrazCityCruises.com. The ferry schedule changes seasonally. Alcatraz is closed on Thanksgiving, Christmas and New Years Day. Once on the island you can stay up to the last ferry.\n\nBe aware that tickets sell out quickly and reservations are recommended. Tickets go on sale 90 days in advance."
       },
       "updated": null
     },
@@ -148,7 +178,16 @@
       ],
       "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The Butterfield Overland National Historic Trail is not a clearly marked hiking trail. Instead, it is a corridor that passes through communities, urban areas, public lands, and Wilderness. The route travels across a variety of land ownerships and management, including private land. Each location varies as to the hours of operation and access. Please contact individual trail sites before your visit for more information."
       },
       "updated": null
     },
@@ -1999,7 +2038,37 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "mon": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "tue": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "09:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "09:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "The park is open 365 days a year including holidays from 9 am until 5 pm. \nThe Bayside Trail and the Oceanside Trail close at 4pm. The tidepools and the Coastal Trail close at 4:30pm. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -2074,7 +2143,16 @@
       ],
       "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The California National Historic Trail is not a clearly marked hiking trail. Instead it is a corridor that passes through communities, urban areas, public lands, and Wilderness. The route travels across a variety of land ownerships and management, including private land. Each location varies as to the hours of operation and access. Please contact individual trail sites before your visit for more information."
       },
       "updated": null
     },
@@ -3905,7 +3983,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Castle Mountains National Monument is open year-round. There are no facilities in the Monument. Visitor Centers in neighboring Mojave National Preserve provide information and orientation."
       },
       "updated": null
     },
@@ -9544,7 +9631,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park is open 24 hours a day. Services and facilities have separate hours. Please see descriptions of those facilities elsewhere."
       },
       "updated": null
     },
@@ -10203,7 +10299,37 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "mon": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "tue": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "wed": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "thu": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "16:00"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "16:00"
+          }
+        },
+        "notes": "The monument is open daily from 10:00 am to 4:00 pm except for the following holidays:  Easter Sunday, Thanksgiving Day and the Friday after, Christmas Eve and Christmas Day, and New Year's Eve and New Year's Day. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -43502,7 +43628,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park is open daily all year."
       },
       "updated": null
     },
@@ -43533,7 +43668,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "In the operating season, Devils Postpile National Monument is open 24 hours a day, 7 days a week. \n\nThe Monument usually opens in mid-June. By mid to late October, early winter storms in the High Sierra typically begin to bring snow to the area. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -43608,7 +43752,31 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "mon": false,
+          "tue": false,
+          "wed": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "thu": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "16:30"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "16:30"
+          }
+        },
+        "notes": "Eugene O'Neill National Historic Site must be accessed through a private, gated road owned by a community of neighboring residents. In order to experience Eugene O'Neill National Historic Site, visitors need to make reservations and will be driven by a park shuttle from the Town of Danville, California. You'll receive a tour of Eugene O'Neill's \"Tao House\" and have time to explore the grounds before returning to Danville on the shuttle. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -44203,7 +44371,31 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "mon": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "tue": false,
+          "wed": false,
+          "thu": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "The days in which Fort Point is open varies throughout the year. Fall through Spring the fort is generally open Friday through Sunday. During the summer season the fort is open 5 days a week most years. The timing of the shift in days is not consistent from year to year but generally occurs in October and May. Hours are 10 am to 5 pm. Closed on Thanksgiving, Christmas, and New Year's Day. Visit our web site for current open days. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -68070,7 +68262,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Although this urban park is accessible 24 hours a day in most areas, most parking lots are open between sunrise to sunset."
       },
       "updated": null
     },
@@ -68977,7 +69178,31 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": false,
+          "mon": false,
+          "tue": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "The main park site and visitor center are open Tuesday through Saturday from 10:00 A.M. to 5:00 P.M. We are closed on Sunday and Monday. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -77328,7 +77553,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Joshua Tree National Park is open 24 hours a day, 7 days a week, 365 days a year. Visitation increases as temperatures moderate in the fall, peaks during the spring wildflower season, and diminishes during the heat of summer. Some areas of the park are designated for day use only. Visitor centers keep separate hours; please see descriptions."
       },
       "updated": null
     },
@@ -77403,7 +77637,31 @@
       ],
       "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": false,
+          "mon": {
+            "open": "09:30",
+            "close": "17:00"
+          },
+          "tue": {
+            "open": "09:30",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "09:30",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "09:30",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "09:30",
+            "close": "17:00"
+          },
+          "sat": false
+        },
+        "notes": "Hours listed are for the Richmond, California administrative office of the Anza Trail (admin office not currently open to public). The 1,200-mile Anza Trail connects historic, cultural, and recreation sites from Nogales, AZ, to the San Francisco Bay Area that reveal the legacy of our Spanish colonial heritage. To learn more, visit http://www.nps.gov/juba. Each site along the Anza Trail is managed independently. Contact individual sites for hours, directions, and other details."
       },
       "updated": null
     },
@@ -80006,7 +80264,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park is always open. Road access is limited during the winter season, approximately November through May, due to snow."
       },
       "updated": null
     },
@@ -88365,7 +88632,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park is open 24 hours a day, year-round. \n\nThe visitor center is typically only closed on Christmas Day but will sometimes temporarily close in the winter due to weather or maintenance. Temporary closures are usually posted as an alert and/or on our social media. \n\nFor visitor center hours please the Visitor Center section below."
       },
       "updated": null
     },
@@ -88420,7 +88696,30 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": {
+            "solar": "sunrise-sunset"
+          },
+          "mon": {
+            "solar": "sunrise-sunset"
+          },
+          "tue": {
+            "solar": "sunrise-sunset"
+          },
+          "wed": {
+            "solar": "sunrise-sunset"
+          },
+          "thu": {
+            "solar": "sunrise-sunset"
+          },
+          "fri": {
+            "solar": "sunrise-sunset"
+          },
+          "sat": {
+            "solar": "sunrise-sunset"
+          }
+        },
+        "notes": "The driving tour and grounds remain open daily from sunrise to sunset. Visitor center hours are more limited. See visitor center hours section for more information."
       },
       "updated": null
     },
@@ -102667,7 +102966,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Outdoor areas of the Mojave National Preserve including trails, roads, campgrounds are OPEN 24 hours a day, 365 days per year. Be sure to check Alerts and Conditions for any temporary closures."
       },
       "updated": null
     },
@@ -103246,7 +103554,37 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "mon": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "tue": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "08:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "08:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "Muir Woods is open every day of the year, with exceptions for inclement weather and hazardous conditions. Our core winter hours are 8 am- 5 pm; in the spring, summer, and fall we are open later based on increased daylight hours. Updates on closures will be posted as an alert to the website and on social-media pages. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -103321,7 +103659,16 @@
       ],
       "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "There are many places of history and commemoration on the Old Spanish National Historic Trail to visit. Museums, interpretive centers, and historic sites provide information and interpretation. Please contact each site before you go to obtain current information on closures, changes in hours, and fees."
       },
       "updated": null
     },
@@ -112568,7 +112915,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Entrance to the east side of Pinnacles National Park is open 24 hours, 7 days a week, including holidays."
       },
       "updated": null
     },
@@ -151302,7 +151658,16 @@
       ],
       "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The Pony Express National Historic Trail is not a clearly marked hiking trail. Instead it is a route that passes through communities, urban areas, public lands, and Wilderness. The route travels across a variety of land ownerships and management, including private land. Each location varies as to the hours of operations and access. Please contact individual trail sites before your visit for more information."
       },
       "updated": null
     },
@@ -151545,7 +151910,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The Port Chicago Naval Magazine National Memorial is located on Military Ocean Terminal Concord (MOTCO) and is an active base. Due to its location, tours are only available with reservations on a ranger-guided tour. Public access to the memorial is through a two-week advance reservation process and only on Thursdays, Fridays or Saturdays. Allow for 1.5 hours. No access Sundays, Mondays, Tuesdays, Wednesdays, and during Military Ocean Terminal Concord (MOTCO) operations. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -151620,7 +151994,16 @@
       ],
       "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The Presidio is open 24 hours a day, every day of the year."
       },
       "updated": null
     },
@@ -164487,7 +164870,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The national and state parks are always open to enjoy. \nRoads, trails and public access remain open year round.\n\nSome campgrounds and visitor centers are closed - or have reduced hours - in the off-season (October-May)"
       },
       "updated": null
     },
@@ -167422,7 +167814,37 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "mon": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "tue": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "Hours of Operation:\nThe Visitor Center is open daily from 10:00 AM to 5:00 PM. The park is also closed during the following holidays:\n\nHolidays:\nClosed on Thanksgiving Day, Christmas Day, and New Year's Day. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -167681,7 +168103,37 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "mon": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "tue": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "wed": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "thu": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "fri": {
+            "open": "10:00",
+            "close": "17:00"
+          },
+          "sat": {
+            "open": "10:00",
+            "close": "17:00"
+          }
+        },
+        "notes": "Visitor Center: Open daily 10:00 am – 5:00 pm.\nThe Visitor Center is closed on Thanksgiving Day, Christmas Day, and New Year's Day. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -287092,7 +287544,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park sites are open year-round.\nOur parking lots are open from 8 am to sunset."
       },
       "updated": null
     },
@@ -287167,7 +287628,16 @@
       ],
       "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The parks are open 24 hours a day, 365 days a year. Some park roads and roads that access more remote parts of the parks close in the winter due to snow accumulation. Rarely, extreme weather conditions may cause roads into the parks to be closed."
       },
       "updated": null
     },
@@ -287242,7 +287712,31 @@
       ],
       "source": "NPS (nps.gov) — approximate circular boundary, not the real park footprint",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": {
+            "open": "09:00",
+            "close": "16:30"
+          },
+          "mon": {
+            "open": "09:00",
+            "close": "16:30"
+          },
+          "tue": false,
+          "wed": false,
+          "thu": {
+            "open": "21:00",
+            "close": "16:30"
+          },
+          "fri": {
+            "open": "09:00",
+            "close": "16:30"
+          },
+          "sat": {
+            "open": "09:00",
+            "close": "16:30"
+          }
+        },
+        "notes": "The visitor center is open Thursday - Sunday from 9:00am to 4:30pm, till September 7th. Please check the calendar for the most accurate information. Exceptions apply (holidays/seasonal) — check nps.gov for details."
       },
       "updated": null
     },
@@ -288681,7 +289175,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "The park is open year-round, 24 hours a day.  Certain areas of the park are subject to seasonal and COVID-19 temporary closures or limited hours. Some areas of the park remain closed due to hazardous conditions from the Carr Fire. Please check the park website for current information."
       },
       "updated": null
     },
@@ -382684,7 +383187,16 @@
       ],
       "source": "NPS (nps.gov) — real park boundary",
       "schedule": {
-        "notes": "NPS did not provide structured standard hours for this park."
+        "hours": {
+          "sun": "allday",
+          "mon": "allday",
+          "tue": "allday",
+          "wed": "allday",
+          "thu": "allday",
+          "fri": "allday",
+          "sat": "allday"
+        },
+        "notes": "Yosemite National Park is open 24 hours per day, 365 days per year."
       },
       "updated": null
     },
